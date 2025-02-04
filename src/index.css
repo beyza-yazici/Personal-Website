@@ -1,18 +1,16 @@
 @import "tailwindcss";
 
-:root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
+body {
+    margin: 0;
+    padding: 0;
   }
   
-  [class="dark"] {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  #root {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
   }
   
-  body {
-    color: rgb(var(--foreground-rgb));
-    background: rgb(var(--background-start-rgb));
+  .dark #root {
+    background-color: rgb(17 24 39);
   }

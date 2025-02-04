@@ -19,19 +19,24 @@ const getInitialTheme = () => {
 };
 
 export const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState(getInitialTheme);
+    const [theme, setTheme] = useState(() => {
+        return localStorage.getItem("theme") || getInitialTheme()
+    });
 
     const toggleTheme = () => {
         setTheme(theme === 'light' ? 'dark' : 'light');
     };
 
     useEffect(() => {
-        const root = window.document.documentElement;
         
+        const root = window.document.documentElement;
         root.classList.remove('light', 'dark');
         root.classList.add(theme);
         
-        localStorage.setItem('theme', theme);
+        localStorage.setItem("theme", theme);
+        
+        document.body.style.backgroundColor = theme === 'dark' ? 'rgb(17 24 39)' : 'white';
+        document.getElementById('root').style.backgroundColor = theme === 'dark' ? 'rgb(17 24 39)' : 'white';
     }, [theme]);
 
     return (

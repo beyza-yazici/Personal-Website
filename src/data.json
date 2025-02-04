@@ -3,20 +3,22 @@
       "heroSection": {
         "greeting": "Hi!",
         "intro": "I'm Beyza. I am a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
-        "profileImage": "",
+        "profileImage": "/images/profile.photo.jpeg",
         "socials": [
           {
             "logo": "LinkedIn.svg",
             "altText": "linkedin",
-            "link": "www.linkedin.com"
+            "link": "/images/LinkedIn.svg"
           },
           {
-            "logo": "Github-Dark.svg",
+            "logo": "Github-Light.svg",
             "altText": "Github",
-            "link": "www.github.com"
+            "link": "/images/Github-Light.svg"
           }
         ],
-        "ctaHTML": "Currently looking for a job as a <strong>Front-end developer</strong>"
+        "ctaHTML": "Currently looking for a job as a <strong>Full-stack developer</strong>.",
+        "invitation": "Invite me to join your team →",
+        "email": "beyzanyazici@hotmail.com"
       },
       "skillsSection": {
         "title": "Skills",
@@ -93,20 +95,22 @@
       "heroSection": {
         "greeting": "Merhaba!",
         "intro": "Ben Beyza. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir ön yüz ürünleri geliştirebilirim. Tanışalım!",
-        "profileImage": "",
+        "profileImage":  "/images/profile.photo.jpeg",
         "socials": [
           {
             "logo": "LinkedIn.svg",
             "altText": "linkedin",
-            "link": "www.linkedin.com"
+            "link": "/images/LinkedIn.svg"
           },
           {
-            "logo": "Github-Dark.svg",
+            "logo": "Github-Light.svg",
             "altText": "Github",
-            "link": "www.github.com"
+            "link": "/images/Github-Light.svg"
           }
         ],
-        "ctaHTML": "Şu anda <strong>Front-end geliştirici</strong> olarak iş arıyorum."
+        "ctaHTML": "Şu anda <strong>Full-stack geliştirici</strong> olarak iş arıyorum.",
+        "invitation":"Ekibinize katılmam için davet edin →",
+        "email": "beyzanyazici@hotmail.com"
       },
       "skillsSection": {
         "title": "Beceriler",
