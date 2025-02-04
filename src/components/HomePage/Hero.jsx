@@ -7,18 +7,17 @@ function HeroSection() {
     const content = data[language].heroSection;
 
     return (
-        <div className="flex flex-row items-start justify-between gap-8 p-8">
-            
-            <div className="flex-1">
-                <h1 className="flex items-center gap-2 text-2xl font-bold mb-4">
+        <div className="flex flex-row items-start justify-between gap-16 px-16 py-12">
+            <div className="flex-1 space-y-6">
+                <h1 className="flex items-center gap-2 text-3xl font-bold">
                     {content.greeting} <span role="img" aria-label="wave">👋</span>
                 </h1>
 
-                <p className="text-lg mb-6 dark:text-white">
+                <p className="text-xl dark:text-white">
                     {content.intro}
                 </p>
 
-                <div className="flex gap-4 mb-6">
+                <div className="flex gap-6">
                     {content.socials.map((social, index) => (
                         <a
                             key={index}
@@ -28,29 +27,29 @@ function HeroSection() {
                             className="hover:opacity-80 transition-opacity"
                         >
                             <img
-                                src={`/icons/${social.logo}`}
+                                src={`/images/${social.logo}`}
                                 alt={social.altText}
-                                className="w-6 h-6"
+                                className="w-8 h-8" 
                             />
                         </a>
                     ))}
                 </div>
 
-                <div className="text-sm text-gray-400">
-                    <div dangerouslySetInnerHTML={{ __html: content.ctaHTML }} className="mb-2" />
+                <div className="text-base text-gray-400 space-y-2">
+                    <div dangerouslySetInnerHTML={{ __html: content.ctaHTML }} />
                     <div>
-                        Invite me to join your team →{' '}
+                        {content.invitation}{' '}
                         <a 
                             href={`mailto:${content.email}`}
                             className="text-[#e92577] hover:underline"
                         >
-                            beyzanyazici@hotmail.com
+                            {content.email}
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div className="w-64 h-64 rounded-2xl overflow-hidden border-4 border-[#e92577] flex-shrink-0">
+            <div className="w-72 h-72 rounded-2xl overflow-hidden border-4 border-[#e92577] flex-shrink-0">
                 <img
                     src={content.profileImage}
                     alt="Profile"

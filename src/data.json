@@ -8,12 +8,12 @@
           {
             "logo": "LinkedIn.svg",
             "altText": "linkedin",
-            "link": "/images/LinkedIn.svg"
+            "link": "https://www.linkedin.com/in/beyza-nur-yaz%C4%B1c%C4%B1-9a0723231/"
           },
           {
             "logo": "Github-Light.svg",
             "altText": "Github",
-            "link": "/images/Github-Light.svg"
+            "link": "https://github.com/beyza-yazici"
           }
         ],
         "ctaHTML": "Currently looking for a job as a <strong>Full-stack developer</strong>.",
@@ -23,10 +23,7 @@
       "skillsSection": {
         "title": "Skills",
         "skills": [
-          {
-            "name": "HTML",
-            "icon": "HTML.svg"
-          },
+          
           {
             "name": "CSS",
             "icon": "CSS.svg"
@@ -45,15 +42,11 @@
           },
           {
             "name": "VS Code",
-            "icon": "VS Code-Dark.svg"
+            "icon": "VSCode-Dark.svg"
           },
           {
             "name": "Figma",
             "icon": "Figma-Dark.svg"
-          },
-          {
-            "name": "Discord",
-            "icon": "Discord.svg"
           }
         ]
       },
@@ -100,12 +93,12 @@
           {
             "logo": "LinkedIn.svg",
             "altText": "linkedin",
-            "link": "/images/LinkedIn.svg"
+            "link": "https://www.linkedin.com/in/beyza-nur-yaz%C4%B1c%C4%B1-9a0723231/"
           },
           {
             "logo": "Github-Light.svg",
             "altText": "Github",
-            "link": "/images/Github-Light.svg"
+            "link": "https://github.com/beyza-yazici"
           }
         ],
         "ctaHTML": "Şu anda <strong>Full-stack geliştirici</strong> olarak iş arıyorum.",
