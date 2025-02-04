@@ -2,77 +2,57 @@ import { useLanguage } from "../hooks/useLanguage";
 import { useTheme } from "../hooks/useTheme";
 
 function Header() {
-    const { localizedData, toggleLanguage, language } = useLanguage();
-    const { theme, setTheme } = useTheme();
-    const { heroSection } = localizedData;
-
-    const toggleTheme = () => {
-        setTheme(theme === "light" ? "dark" : "light");
-    };
+    const { toggleLanguage, language } = useLanguage();
+    const { toggleTheme, theme } = useTheme();
 
     return (
-        <header className={`container mx-auto px-4 py-8 relative ${theme === 'dark' ? 'dark' : ''}`}>
-            
-            <div className="absolute top-4 right-4 flex items-center gap-2">
-                <button
-                    onClick={toggleTheme}
-                    className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+        <header className='flex items-center justify-end gap-3 font-semibold text-sm text-gray-500 dark:text-gray-400 transition-colors duration-200'>
+            <div className='flex justify-center items-center gap-2'>
+                <label
+                    htmlFor="language-switch"
+                    className="relative inline-block w-8 h-4"
+                    aria-label="Dil değiştirme"
                 >
-                    {theme === 'light' ? '🌙' : '☀️'}
-                </button>
-                <button
-                    onClick={toggleLanguage}
-                    className="px-3 py-1 text-sm rounded-full bg-pink-500 text-white hover:bg-pink-600 transition-colors"
+                    <input
+                        id="language-switch"
+                        type="checkbox"
+                        className="opacity-0 w-0 h-0 peer"
+                        checked={theme === "dark"}
+                        onChange={toggleTheme}
+                    />
+                    <span
+                        className="absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-gray-300 dark:bg-gray-600 transition-all duration-400 ease-in-out peer-checked:bg-blue-500 rounded-full"
+                        aria-hidden="true"
+                    ></span>
+                    <span
+                        className="absolute w-3 h-3 left-0.5 bottom-0.5 bg-white dark:bg-gray-200 transition-all duration-400 ease-in-out transform peer-checked:translate-x-4 rounded-full"
+                    ></span>
+                </label>
+                <p className="dark:text-gray-300">Dark Mode</p>
+            </div>
+            <p className="dark:text-gray-400">|</p>
+
+            {language === "tr" ? (
+                <p 
+                    onClick={() => toggleLanguage("en")}
+                    className="cursor-pointer dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 transition-colors duration-200"
+                    role="button"
+                    aria-label="Switch to English"
+                > 
+                    SWITCH TO <span className="text-[#e92577] dark:text-[#ff4d8d] font-bold">ENGLISH</span>
+                </p>
+            ) : (
+                <p 
+                    onClick={() => toggleLanguage("tr")}
+                    className="cursor-pointer dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 transition-colors duration-200"
+                    role="button"
+                    aria-label="Türkçe'ye geçiş yap"
                 >
-                    {language === 'tr' ? 'EN' : 'TR'}
-                </button>
-            </div>
-
-            <div className="max-w-3xl">
-                <h1 className="text-4xl font-bold mb-4 dark:text-white">
-                    {heroSection.greeting}
-                </h1>
-
-                <div className="space-y-4">
-                    <p className="text-xl dark:text-gray-200">
-                        {heroSection.title}
-                    </p>
-                    <p className="text-lg text-gray-600 dark:text-gray-400">
-                        {heroSection.description}
-                    </p>
-                </div>
-
-                <div className="mt-6 text-sm text-gray-500 dark:text-gray-400">
-                    <p>{heroSection.currentStatus}</p>
-                    <a 
-                        href={`mailto:${heroSection.email}`}
-                        className="text-pink-500 hover:text-pink-600 transition-colors"
-                    >
-                        {heroSection.email}
-                    </a>
-                </div>
-
-                <div className="mt-6 flex gap-4">
-                    <a 
-                        href={heroSection.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 dark:text-gray-400 hover:text-pink-500 dark:hover:text-pink-400 transition-colors"
-                    >
-                        LinkedIn
-                    </a>
-                    <a 
-                        href={heroSection.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 dark:text-gray-400 hover:text-pink-500 dark:hover:text-pink-400 transition-colors"
-                    >
-                        GitHub
-                    </a>
-                </div>
-            </div>
+                    <span className="text-[#e92577] dark:text-[#ff4d8d] font-bold">TÜRKÇE</span>&apos;YE GEÇ
+                </p>
+            )}
         </header>
-    );
+    )
 }
 
 export default Header;
