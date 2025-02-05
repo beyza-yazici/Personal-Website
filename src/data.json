@@ -99,10 +99,10 @@
                 "personalBlog": "Personal Blog"
             },
             "contact": {
-                "github": "www.github.com",
-                "linkedin": "www.linkedin.com",
+                "github": "https://github.com/beyza-yazici",
+                "linkedin": "https://www.linkedin.com/in/beyza-nur-yaz%C4%B1c%C4%B1-9a0723231/",
                 "email": "beyzanyazici@hotmail.com",
-                "personalBlog": "www.instagram.com"
+                "personalBlog": "https://www.instagram.com/beyzanyazici/"
             }
         }
     },
@@ -205,10 +205,10 @@
                 "personalBlog": "Kişisel Blog"
             },
             "contact": {
-                "github": "www.github.com",
-                "linkedin": "www.linkedin.com",
+                "github": "https://github.com/beyza-yazici",
+                "linkedin": "https://www.linkedin.com/in/beyza-nur-yaz%C4%B1c%C4%B1-9a0723231/",
                 "email": "beyzanyazici@hotmail.com",
-                "personalBlog": "www.instagram.com"
+                "personalBlog": "https://www.instagram.com/beyzanyazici/"
             }
         }
     }
