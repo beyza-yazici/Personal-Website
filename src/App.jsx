@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import HeroSection from './components/HomePage/Hero'
 import Profile from './components/HomePage/Profile'
@@ -15,6 +16,7 @@ function App() {
         <Skills/>
         <Profile/>
         <Projects/>
+        <Footer/>
     </div>
   )
 }
