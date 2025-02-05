@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 function Projects() {
     const { language } = useLanguage();
-    const { left: leftProject, right: rightProject } = data[language].projects;
+    const { left: leftProject, right: rightProject, labels } = data[language].projects;
 
     const ProjectCard = ({ project }) => (
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden">
@@ -32,7 +32,7 @@ function Projects() {
                         rel="noopener noreferrer"
                         className="text-[#e92577] hover:underline"
                     >
-                        View on GitHub
+                        {labels.github}
                     </a>
                     <a
                         href={project.visit}
@@ -40,7 +40,7 @@ function Projects() {
                         rel="noopener noreferrer"
                         className="text-[#e92577] hover:underline"
                     >
-                        Live Demo
+                        {labels.demo}
                     </a>
                 </div>
             <img 
@@ -59,7 +59,7 @@ function Projects() {
     return (
         <section className="py-16 px-16">
             <h2 className="text-3xl font-bold text-center mb-12 dark:text-white">
-                Projects
+                {labels.projects}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

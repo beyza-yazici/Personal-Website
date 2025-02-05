@@ -51,6 +51,15 @@
         ]
       },
       "profile": {
+        "labels": {
+                "profile": "Profile",
+                "basicInfo": "Basic Information",
+                "birthday": "Birthday",
+                "location": "Location",
+                "education": "Education",
+                "role": "Role",
+                "aboutMe": "About Me"
+            },
         "information": {
           "birthday": "27/04/1995",
           "location": "Istanbul",
@@ -58,31 +67,44 @@
           "role": "Full-stack Development"
         },
         "aboutme": "After exploring different fields, I became eager to learn software development. I decided to pivot my career and began to improve myself in this area. I’ve completed various courses and developed hands-on projects to refine my skills. I’m passionate about problem-solving and building efficient, user-friendly software. I have a solid understanding of various frameworks and libraries. I’m also familiar with version control systems like agile methodologies. All my projects are available on my GitHub account."
+      
       },
       "projects": {
+        "labels": {
+                "projects": "Projects",
+                "github": "View on GitHub",
+                "demo": "Live Demo"
+            },
         "left": {
           "title": "Teknolojik Yemekler - SPA",
-          "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+          "desc": "This pizza ordering page features a modern interface that allows users to easily select and place their pizza orders. Developed using React, the page is enriched with dynamic components and user interactions. Users can create personalized orders by choosing from various pizza sizes, toppings, and sauces. Additionally, the order summary and total price information are updated in real-time, further enhancing the user experience.",
           "tags": ["react", "axios", "scss", "vercel"],
-          "url": "www.github.com",
-          "visit": "www.google.com",
+          "url": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
+          "visit": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
         },
         "right": {
           "title": "Witflix",
-          "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+          "desc": "This Netflix project features a sleek interface that allows users to explore movie and series content. Developed using HTML, the page is enriched with a user-friendly design. Users can browse through content in various categories, get detailed information, and easily select the movies or series they want to watch. Additionally, the visuals and descriptions of the content provide users with a better experience while making their selections.",
           "tags": ["react", "axios", "scss", "vercel"],
-          "url": "www.github.com",
-          "visit": "www.google.com",
+          "url": "https://github.com/beyza-yazici/WitFlix.git",
+          "visit": "https://github.com/beyza-yazici/WitFlix.git",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
         }
       },
       "contact": {
-        "github": "www.github.com",
-        "linkedin": "www.linkedin.com",
-        "email": "beyzanyazici@hotmail.com",
-        "personalBlog": "www.instagram.com"
-      }
+            "labels": {
+                "title": "Let's work together on",
+                "subtitle": "your next product.",
+                "personalBlog": "Personal Blog"
+            },
+            "contact": {
+                "github": "www.github.com",
+                "linkedin": "www.linkedin.com",
+                "email": "beyzanyazici@hotmail.com",
+                "personalBlog": "www.instagram.com"
+            }
+        }
     },
     "tr": {
       "heroSection": {
@@ -108,10 +130,7 @@
       "skillsSection": {
         "title": "Beceriler",
         "skills": [
-          {
-            "name": "HTML",
-            "icon": "HTML.svg"
-          },
+        
           {
             "name": "CSS",
             "icon": "CSS.svg"
@@ -130,19 +149,24 @@
           },
           {
             "name": "VS Code",
-            "icon": "VS Code-Dark.svg"
+            "icon": "VSCode-Dark.svg"
           },
           {
             "name": "Figma",
             "icon": "Figma-Dark.svg"
-          },
-          {
-            "name": "Discord",
-            "icon": "Discord.svg"
           }
         ]
       },
       "profile": {
+        "labels": {
+                "profile": "Profil",
+                "basicInfo": "Temel Bilgiler",
+                "birthday": "Doğum Tarihi",
+                "location": "Konum",
+                "education": "Eğitim",
+                "role": "Rol",
+                "aboutMe": "Hakkımda"
+            },
         "information": {
           "birthday": "27/04/1995",
           "location": "İstanbul",
@@ -152,28 +176,40 @@
         "aboutme": "Farklı alanları keşfettikten sonra yazılım geliştirmeyi öğrenme isteği duydum. Kariyerimi değiştirmeye karar verdim ve bu alanda kendimi geliştirmeye başladım. Çeşitli kursları tamamladım ve becerilerimi geliştirmek için uygulamalı projeler geliştirdim. Problem çözmeye ve verimli, kullanıcı dostu yazılımlar inşa etmeye tutkuluyum. Çeşitli çerçeveler ve kütüphaneler hakkında sağlam bir anlayışa sahibim. Ayrıca, çevik metodolojiler gibi sürüm kontrol sistemleriyle de tanışığım. Tüm projelerim GitHub hesabımda mevcuttur."
       },
       "projects": {
+        "labels": {
+                "projects": "Projeler",
+                "github": "GitHub'da Görüntüle",
+                "demo": "Canlı Demo"
+            },
         "left": {
           "title": "Teknolojik Yemekler - SPA",
-          "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+          "desc": "Bu pizza sipariş sayfası, kullanıcıların kolayca pizza seçmelerine ve sipariş vermelerine olanak tanıyan modern bir arayüze sahiptir. React kullanılarak geliştirilen sayfa, dinamik bileşenler ve kullanıcı etkileşimleri ile zenginleştirilmiştir. Kullanıcılar, farklı pizza boyutları, malzemeler ve soslar arasından seçim yaparak kişiselleştirilmiş siparişler oluşturabilirler. Ayrıca, sipariş özeti ve toplam fiyat bilgisi anlık olarak güncellenmektedir, bu da kullanıcı deneyimini daha da iyileştirmektedir.",
           "tags": ["react", "axios", "scss", "vercel"],
-          "url": "www.github.com",
-          "visit": "www.google.com",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+          "url": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
+          "visit": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
+          "image": "https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg"
         },
         "right": {
           "title": "Witflix",
-          "desc": "Aliquid harum dignissimos expedita ducimus fugiat blanditiis ad autem? Labore excepturi voluptatibus, odio corporis itaque, exercitationem corrupti aliquid explicabo delectus, reprehenderit perspiciatis.",
+          "desc": "Bu proje, kullanıcıların film ve dizi içeriklerini keşfetmelerine olanak tanıyan şık bir arayüze sahiptir. HTML kullanılarak geliştirilen sayfa, kullanıcı dostu bir tasarım ile zenginleştirilmiştir. Kullanıcılar, farklı kategorilerdeki içeriklere göz atabilir, detaylı bilgi alabilir ve izlemek istedikleri filmleri veya dizileri kolayca seçebilirler. Ayrıca, içeriklerin görselleri ve açıklamaları, kullanıcıların seçim yaparken daha iyi bir deneyim yaşamalarını sağlamaktadır.",
           "tags": ["react", "axios", "scss", "vercel"],
-          "url": "www.github.com",
-          "visit": "www.google.com",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+          "url": "https://github.com/beyza-yazici/WitFlix.git",
+          "visit": "https://github.com/beyza-yazici/WitFlix.git",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsnPrnr2ybgZ0qb3PJhAP0iLIv7pjZnjO2A&s"
         }
       },
       "contact": {
-        "github": "www.github.com",
-        "linkedin": "www.linkedin.com",
-        "email": "beyzanyazici@hotmail.com",
-        "personalBlog": "www.instagram.com"
-      }
+            "labels": {
+                "title": "Haydi yeni projenizde",
+                "subtitle": "birlikte çalışalım.",
+                "personalBlog": "Kişisel Blog"
+            },
+            "contact": {
+                "github": "www.github.com",
+                "linkedin": "www.linkedin.com",
+                "email": "beyzanyazici@hotmail.com",
+                "personalBlog": "www.instagram.com"
+            }
+        }
     }
-  }
+}

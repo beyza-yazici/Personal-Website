@@ -1,17 +1,16 @@
-
 import data from '../data.json';
 import { useLanguage } from '../hooks/useLanguage';
 
 function Footer() {
     const { language } = useLanguage();
-    const { contact } = data[language];
+    const { contact, labels } = data[language].contact;
 
     return (
         <footer className="py-16 px-16 bg-white dark:bg-gray-800">
             <div className="max-w-6xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-8 dark:text-white">
-                    Let&apos;s work together on <br />
-                    your next product.
+                    {labels.title} <br />
+                    {labels.subtitle}
                 </h2>
 
                 <div className="flex justify-center items-center gap-6">
@@ -29,7 +28,7 @@ function Footer() {
                         rel="noopener noreferrer"
                         className="text-gray-600 dark:text-gray-300 hover:text-[#e92577] transition-colors"
                     >
-                        Personal Blog
+                        {labels.personalBlog}
                     </a>
                     <a
                         href={contact.linkedin}
