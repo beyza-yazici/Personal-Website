@@ -8,15 +8,15 @@ function Header() {
     
 
     return (
-        <header className='flex items-center justify-end gap-3 font-semibold text-sm text-gray-500 pt-6 pr-16'> {/* pt-6 üstten, pr-16 sağdan boşluk ekler */}
+        <header className='flex items-center justify-end gap-3 font-semibold text-sm text-gray-500 pt-6 pr-40'>
             <div className='flex justify-center items-center gap-2'>
                 <label
-                    htmlFor="language-switch"
+                    htmlFor="theme-switch"
                     className="relative inline-block w-8 h-4"
-                    aria-label="Dil değiştirme"
+                    aria-label="Tema değiştirme"
                 >
                     <input
-                        id="language-switch"
+                        id="theme-switch"
                         type="checkbox"
                         className="opacity-0 w-0 h-0 peer"
                         checked={theme === "dark"}

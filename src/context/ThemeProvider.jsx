@@ -1,39 +1,39 @@
 import { useEffect, useState } from "react";
 import { ThemeContext } from "./ThemeContext";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const getBrowserTheme = () => {
-    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
-}
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+};
 
 export const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState(() => {
-        return localStorage.getItem("theme") || getBrowserTheme()
-    });
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("theme") || getBrowserTheme();
+  });
 
-    const toggleTheme = () => {
-        setTheme(theme === 'light' ? 'dark' : 'light');
-    };
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
 
-    useEffect(() => {
-        
-        const root = window.document.documentElement;
-        root.classList.remove('light', 'dark');
-        root.classList.add(theme);
-        
-        localStorage.setItem("theme", theme);
-        
-        document.body.style.backgroundColor = theme === 'dark' ? 'rgb(17 24 39)' : 'white';
-        document.getElementById('root').style.backgroundColor = theme === 'dark' ? 'rgb(17 24 39)' : 'white';
-    }, [theme]);
+  useEffect(() => {
+    const root = window.document.documentElement;
+    if (theme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
-    return (
-        <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
-            {children}
-        </ThemeContext.Provider>
-    )
-}
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
 
 ThemeProvider.propTypes = {
-    children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
