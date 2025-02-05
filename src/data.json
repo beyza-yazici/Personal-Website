@@ -54,10 +54,10 @@
         "information": {
           "birthday": "27/04/1995",
           "location": "Istanbul",
-          "education": "Bogazici University-Early Childhood Education",
-          "role": "Full-stack"
+          "education": "Bogazici University-Early Childhood Education, 2019",
+          "role": "Full-stack Development"
         },
-        "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+        "aboutme": "After exploring different fields, I became eager to learn software development. I decided to pivot my career and began to improve myself in this area. I’ve completed various courses and developed hands-on projects to refine my skills. I’m passionate about problem-solving and building efficient, user-friendly software. I have a solid understanding of various frameworks and libraries. I’m also familiar with version control systems like agile methodologies. All my projects are available on my GitHub account."
       },
       "projects": {
         "left": {
@@ -146,10 +146,10 @@
         "information": {
           "birthday": "27/04/1995",
           "location": "İstanbul",
-          "education": "Boğaziçi Üniversitesi-Okul Öncesi Öğretmenliği",
-          "role": "Full-stack"
+          "education": "Boğaziçi Üniversitesi-Okul Öncesi Öğretmenliği, 2019",
+          "role": "Full-stack Development"
         },
-        "aboutme": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo error cum ratione, dolorem veritatis dolore. Cupiditate earum rem delectus quam reprehenderit eaque, sequi itaque ab pariatur nulla eligendi illu  In nostrum maxime quisquam nulla sequi corporis dolore? Voluptatum hic deleniti, rerum cum magni animi quo aspernatur fugiat amet quas delectus in magnam vitae expedita veritatis ex impedit nesciunt inventore.  Illum quibusdam magni neque quo nam odio, eius, velit tempore omnis voluptate reiciendis culpa minima laboriosam est voluptatem? Impedit sit dignissimos quas soluta doloribus, ipsum aut ex nulla consectetur voluptas."
+        "aboutme": "Farklı alanları keşfettikten sonra yazılım geliştirmeyi öğrenme isteği duydum. Kariyerimi değiştirmeye karar verdim ve bu alanda kendimi geliştirmeye başladım. Çeşitli kursları tamamladım ve becerilerimi geliştirmek için uygulamalı projeler geliştirdim. Problem çözmeye ve verimli, kullanıcı dostu yazılımlar inşa etmeye tutkuluyum. Çeşitli çerçeveler ve kütüphaneler hakkında sağlam bir anlayışa sahibim. Ayrıca, çevik metodolojiler gibi sürüm kontrol sistemleriyle de tanışığım. Tüm projelerim GitHub hesabımda mevcuttur."
       },
       "projects": {
         "left": {

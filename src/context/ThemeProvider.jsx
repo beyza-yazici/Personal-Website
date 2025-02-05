@@ -2,25 +2,13 @@ import { useEffect, useState } from "react";
 import { ThemeContext } from "./ThemeContext";
 import PropTypes from 'prop-types';
 
-const getInitialTheme = () => {
-    if (typeof window !== 'undefined' && window.localStorage) {
-        const storedPrefs = window.localStorage.getItem('theme');
-        if (typeof storedPrefs === 'string') {
-            return storedPrefs;
-        }
-
-        const userMedia = window.matchMedia('(prefers-color-scheme: dark)');
-        if (userMedia.matches) {
-            return 'dark';
-        }
-    }
-
-    return 'light';
-};
+const getBrowserTheme = () => {
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+}
 
 export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState(() => {
-        return localStorage.getItem("theme") || getInitialTheme()
+        return localStorage.getItem("theme") || getBrowserTheme()
     });
 
     const toggleTheme = () => {

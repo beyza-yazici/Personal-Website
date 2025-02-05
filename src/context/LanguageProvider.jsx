@@ -5,14 +5,14 @@ import { LanguageContext } from "./LanguageContext";
 
 
 
-const getInitialLanguage = () => {
-    const language = localStorage.getItem('language');
-    return language || 'tr';
-};
+const getBrowserLanguage = () => {
+    const browserLanguage = navigator.language.slice(0, 2);
+    return browserLanguage === "tr" || browserLanguage === "en" ? browserLanguage : "en"
+}
 
 export const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState(() => {
-        return localStorage.getItem("language") || getInitialLanguage()
+        return localStorage.getItem("language") || getBrowserLanguage()
     });
 
     useEffect(() => {
