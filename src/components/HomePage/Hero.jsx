@@ -7,7 +7,7 @@ function HeroSection() {
     const content = data[language].heroSection;
 
     return (
-        <div className="flex flex-col md:flex-row items-start justify-between gap-4 px-6 md:px-130 py-8 md:py-20">
+        <div className="flex flex-col md:flex-row items-start justify-between gap-4 px-6 md:px-100 py-8 md:py-20">
     <div className="flex-1 space-y-10">
         <h1 className="flex items-center gap-2 text-2xl md:text-3xl font-bold dark:text-white">
             {content.greeting} <span role="img" aria-label="wave">👋</span>
