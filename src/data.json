@@ -45,8 +45,8 @@
             "icon": "VSCode-Dark.svg"
           },
           {
-            "name": "Figma",
-            "icon": "Figma-Dark.svg"
+            "name": "Java",
+            "icon": "Java-Dark.svg"
           }
         ]
       },
@@ -76,20 +76,20 @@
                 "demo": "Live Demo"
             },
         "left": {
-          "title": "Teknolojik Yemekler - SPA",
+          "title": "Order Pizza",
           "desc": "This pizza ordering page features a modern interface that allows users to easily select and place their pizza orders. Developed using React, the page is enriched with dynamic components and user interactions. Users can create personalized orders by choosing from various pizza sizes, toppings, and sauces. Additionally, the order summary and total price information are updated in real-time, further enhancing the user experience.",
           "tags": ["react", "axios", "scss", "vercel"],
           "url": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
-          "visit": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+          "visit": "https://order-pizza-lemon.vercel.app/",
+          "image": "/images/pizza-order.png"
         },
         "right": {
-          "title": "Witflix",
-          "desc": "This Netflix project features a sleek interface that allows users to explore movie and series content. Developed using HTML, the page is enriched with a user-friendly design. Users can browse through content in various categories, get detailed information, and easily select the movies or series they want to watch. Additionally, the visuals and descriptions of the content provide users with a better experience while making their selections.",
-          "tags": ["react", "axios", "scss", "vercel"],
-          "url": "https://github.com/beyza-yazici/WitFlix.git",
-          "visit": "https://github.com/beyza-yazici/WitFlix.git",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHKeMJgPwC3wFpSD1ZgaHGHGcesFnaPODog&s"
+          "title": "E-commerce",
+          "desc": "This project is a fully functional e-commerce website that allows users to browse and purchase products. It features a user-friendly interface, product filtering, and a secure checkout process. The website is built using React and integrates with a backend API for real-time data updates. Users can create accounts, manage their orders, and enjoy a seamless shopping experience.",
+          "tags": ["react", "axios", "css", "vercel"],
+          "url": "https://github.com/beyza-yazici/E-commerce.git",
+          "visit": "https://e-commerce-eight-gilt-32.vercel.app/",
+          "image": "/images/indir.png"
         }
       },
       "contact": {
@@ -152,8 +152,8 @@
             "icon": "VSCode-Dark.svg"
           },
           {
-            "name": "Figma",
-            "icon": "Figma-Dark.svg"
+            "name": "Java",
+            "icon": "Java-Dark.svg"
           }
         ]
       },
@@ -182,20 +182,20 @@
                 "demo": "Canlı Demo"
             },
         "left": {
-          "title": "Teknolojik Yemekler - SPA",
+          "title": "Order Pizza",
           "desc": "Bu pizza sipariş sayfası, kullanıcıların kolayca pizza seçmelerine ve sipariş vermelerine olanak tanıyan modern bir arayüze sahiptir. React kullanılarak geliştirilen sayfa, dinamik bileşenler ve kullanıcı etkileşimleri ile zenginleştirilmiştir. Kullanıcılar, farklı pizza boyutları, malzemeler ve soslar arasından seçim yaparak kişiselleştirilmiş siparişler oluşturabilirler. Ayrıca, sipariş özeti ve toplam fiyat bilgisi anlık olarak güncellenmektedir, bu da kullanıcı deneyimini daha da iyileştirmektedir.",
           "tags": ["react", "axios", "scss", "vercel"],
           "url": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
-          "visit": "https://github.com/beyza-yazici/Teknolojik-Yemekler---SPA.git",
-          "image": "https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-scaled.jpg"
+          "visit": "https://order-pizza-lemon.vercel.app/",
+          "image": "/images/pizza-order.png"
         },
         "right": {
-          "title": "Witflix",
-          "desc": "Bu proje, kullanıcıların film ve dizi içeriklerini keşfetmelerine olanak tanıyan şık bir arayüze sahiptir. HTML kullanılarak geliştirilen sayfa, kullanıcı dostu bir tasarım ile zenginleştirilmiştir. Kullanıcılar, farklı kategorilerdeki içeriklere göz atabilir, detaylı bilgi alabilir ve izlemek istedikleri filmleri veya dizileri kolayca seçebilirler. Ayrıca, içeriklerin görselleri ve açıklamaları, kullanıcıların seçim yaparken daha iyi bir deneyim yaşamalarını sağlamaktadır.",
-          "tags": ["react", "axios", "scss", "vercel"],
-          "url": "https://github.com/beyza-yazici/WitFlix.git",
-          "visit": "https://github.com/beyza-yazici/WitFlix.git",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsnPrnr2ybgZ0qb3PJhAP0iLIv7pjZnjO2A&s"
+          "title": "E-commerce",
+          "desc": "Bu proje, kullanıcıların ürünleri tarayıp satın alabilecekleri tamamen işlevsel bir e-ticaret web sitesidir. Kullanıcı dostu bir arayüz, ürün filtreleme ve güvenli bir ödeme süreci sunar. Web sitesi React kullanılarak oluşturulmuştur ve gerçek zamanlı veri güncellemeleri için bir arka uç API'si ile entegre edilmiştir. Kullanıcılar hesap oluşturabilir, siparişlerini yönetebilir ve kesintisiz bir alışveriş deneyiminin tadını çıkarabilirler.",
+          "tags": ["react", "axios", "css", "vercel"],
+          "url": "https://github.com/beyza-yazici/E-commerce.git",
+          "visit": "https://e-commerce-eight-gilt-32.vercel.app/",
+          "image": "/images/indir.png"
         }
       },
       "contact": {

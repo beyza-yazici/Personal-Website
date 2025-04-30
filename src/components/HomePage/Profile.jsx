@@ -11,7 +11,7 @@ function Profile() {
                 {labels.profile}
             </h2>
 
-            <div className="flex flex-col md:flex-row gap-8 max-w-6xl mx-auto">
+            <div className="flex flex-col md:flex-row gap-20 max-w-6xl mx-auto">
                 
                 <div className="md:w-1/3 bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
                     <h3 className="text-xl font-semibold mb-6 text-[#e92577]">
